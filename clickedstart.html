@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <title>A Simple Web Page</title>
+
+    </head>
+    <body>
+        
+        <div id="Back">
+       
+         <a href="index.html">Back</a>
+       
+        </div>
+
+        <div id="Scene">
+           
+            <a href="chose_gate.html" id="Gate">   </a>
+            <a href="chose_mountain.html" id="Mountain">  </a>
+
+        </div>
+       
+       <p id="Situation">Take the <a1 href="chose_gate.html">TORII GATE</a1> path or go up the <a1 href="chose_mountain.html">MOUNTAIN?</a1></p>
+
+  
+  
+  
+  
+    </body>
+
+    <style>
+   
+        html,body{
+        background: url("Snowfuji.png") no-repeat;
+        background-size:cover;
+        height: 850px;
+        }
+
+        @font-face {
+         src: url(fonts/PAPYRUS.TTF);
+         font-family: PAPYRUS;
+        }
+    
+        a{
+            font-size: 40px;
+            font-family:PAPYRUS;
+            text-decoration: none;
+            color: black;
+        
+            
+        }
+
+      
+        #Back{
+            font-size: 20px;
+            font-family:PAPYRUS;
+            text-decoration: none;
+            color: white;
+            
+         
+        }
+
+        #Gate{
+            font-size: 37px;
+            font-family:PAPYRUS;
+            text-decoration: none;
+            color: white;
+            position: absolute;
+            bottom: 130px;
+            right: 1050px;
+            width: 300px;
+            height: 300px;
+
+        }
+
+        #Gate:hover{
+            background-color:rgba(256,256,256,.5);
+        }
+
+        #Mountain{
+            font-size: 37px;
+            font-family:PAPYRUS;
+            text-decoration: none;
+            color: white;
+            position: absolute;
+            bottom: 130px;
+            left: 850px;
+            width: 400px;
+            height: 400px;
+
+        }
+
+        #Mountain:hover{
+            background-color:rgba(256,256,256,.5);
+        }
+          
+        #Situation{
+            font-size: 37px;
+            font-family: PAPYRUS;
+            text-decoration: none;
+            color: white;
+            text-align:Center;
+            background-color: rgba(0,0,0,0.1);
+        }
+
+
+        a:hover{
+            text-decoration: underline;
+        }
+   
+     img { 
+         width: 400px;
+
+    }
+    
+    </style>
